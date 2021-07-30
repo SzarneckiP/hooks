@@ -1,15 +1,15 @@
 const data = [
     {
-        id: '1'
+        id: 1
     },
     {
-        id: '2'
+        id: 2
     },
     {
-        id: '3'
+        id: 3
     },
     {
-        id: '4'
+        id: 4
     }
 ];
 
@@ -18,5 +18,5 @@ export const getData = () => {
 };
 
 export const getSingle = id => {
-    return data.find(item => item.id === id)
+    return data.find(item => item.id === id);
 };
